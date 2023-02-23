@@ -293,7 +293,7 @@ public class Main {
 
         System.out.println("Задача 6");
 
-        int one = 101;
+        int one = 1;
         int two = 4;
         int three = 101;
 
@@ -311,6 +311,7 @@ public class Main {
         } else {
             System.out.println("Максимальное число - " + three);
         }
+        if (one < three)
         System.out.println("Все три числа равны");
 
         // в задаче не разобрался надо вникать
@@ -328,7 +329,7 @@ public class Main {
         if (clientOS > 0)
 
             System.out.println("Установите версию приложения для Android по ссылке");
-        else if (clientOS < clientOS) ;
+        else if (clientOS < clientOS);
 
     }
 }
