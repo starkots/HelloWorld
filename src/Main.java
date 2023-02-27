@@ -1,3 +1,4 @@
+import com.sun.security.jgss.GSSUtil;
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Locale;
@@ -253,7 +254,7 @@ public class Main {
         System.out.println("Задача 4");
 
         int age3 = 25;
-        if (age3 < 2 && age3 > 6) {
+        if (age3 > 2 && age3 <= 6) {
             System.out.println("Если возраст человека равен " + age3 + " то ему не нужно ходить в детский сад");
         } else if (age3 > 6 && age3 <= 18) {
             System.out.println("Если возраст человека равен " + age3 + " то ему  нужно ходить в школу");
@@ -281,65 +282,137 @@ public class Main {
 
         System.out.println("Задача 6");
 
-        int vag = 101;
+        int vag = 103;
         int nr = 60;
         if (vag > 60 && nr > 102) {
-            System.out.println("мест нету");
+            System.out.println("Стоячих мест " + vag);
         } else if (vag > 60 && nr < 102) {
-            System.out.println("места есть");
+            System.out.println("Сидячих мест " + nr);
 
 
         }
 
-        System.out.println("Задача 6");
+        System.out.println("Задача 7");
 
         int one = 1;
-        int two = 4;
-        int three = 101;
-
+        int two = 2;
+        int three = 10;
         if (one > two) {
-            if (one >= three) {
-                System.out.println("Максимальное число - " + one);
+            if (one > three) {
+                System.out.println("TМаксимальное число " + one);
             } else {
-                System.out.println("Максимальное число - " + three);
-
-            }
-        } else if (two > one) {
-            if (two >= three) {
-                System.out.println("Максимальное число - " + two);
+                System.out.println("Максимальное число " + three);
             }
         } else {
-            System.out.println("Максимальное число - " + three);
-        }
-        if (one < three)
-            System.out.println("Все три числа равны");
+            if (two > three) {
+                System.out.println("Максимальное число " + two);
+            } else {
+                System.out.println("Максимальное число " + three);
+            }
 
-        // в задаче не разобрался надо вникать
+            // в задаче не разобрался надо вникать
 
 // Условные операторы 2
 
+            System.out.println("Задача 1");
 
-        System.out.println("Задача 1");
 
-        int clientOS = 1;
-        short year = 2017;
+            int clientOS = 1;
 
-        if (year < 2015) {
-            if (clientOS == 0) {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            if (clientOS < 1) {
+                System.out.println("Установите версию приложения для iOS по ссылке");
             }
-            if (clientOS == 1)
+            if (clientOS > 0)
 
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+                System.out.println("Установите версию приложения для Android по ссылке");
 
-        } else {
-            if (clientOS == 0) {
-                System.out.println("Установите версию приложения для iOS по ссылке");
-            } else if (clientOS == 1) {
-                System.out.println("Установите версию приложения для iOS по ссылке");
+            else if (clientOS < clientOS) ;
 
+
+            System.out.println("Задача 2");
+
+            int clientOS1 = 1;
+            short year = 2014;
+
+            if (year < 2015) {
+                if (clientOS1 == 0) {
+                    System.out.println("Установите облегченную версию приложения для iOS по ссылке».");
+                }
+                if (clientOS1 == 1)
+
+                    System.out.println("Установите облегченную версию приложения для Android по ссылке».");
+
+            } else {
+                if (clientOS1 == 0) {
+                    System.out.println("Установите версию приложения для iOS по ссылке");
+                } else if (clientOS1 == 1) {
+                    System.out.println("Установите версию приложения для iOS по ссылке");
+                }
+            }
+
+                System.out.println("Задача 3");
+
+                int year1 = 2021;
+                // в процедурее остатка от деления не разобрался // трудновато дается // списал....
+                if (year1 % 4 == 0 && year1 % 100 != 0 || year % 400 == 0) {
+                    System.out.println("Год является високосным");
+                } else {
+                    System.out.println("Год не явлеется високосным");
+                }
+
+
+            }
+            System.out.println("Задача 4");
+
+            int deliveryDistance = 95;
+
+            int days = 1;
+
+
+            if (deliveryDistance > 20) {
+                days++;
+
+            }
+            if (deliveryDistance > 60) {
+                days++;
+
+            }
+            System.out.println("Потребуется дней " + days);
+
+            if (deliveryDistance > 80) {
+                days++;
+
+            }
+
+
+            if (deliveryDistance > 100) {
+                days++;
+
+            }
+
+
+            System.out.println("Задача 5");
+
+            int месяц = 7;
+            switch (месяц) {
+                case 1, 2, 12:
+                    System.out.println("зима");
+                    break;
+                case 3, 4, 5:
+                    System.out.println("весна");
+                    break;
+                case 9, 10, 11:
+                    System.out.println("осень");
+                    break;
+                case 6, 7, 8:
+                    System.out.println("лето");
+                    break;
+                default:
+                    System.out.println("не известно");
 
             }
         }
+
     }
-}
+
+
