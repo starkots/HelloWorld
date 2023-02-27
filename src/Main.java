@@ -312,7 +312,7 @@ public class Main {
             System.out.println("Максимальное число - " + three);
         }
         if (one < three)
-        System.out.println("Все три числа равны");
+            System.out.println("Все три числа равны");
 
         // в задаче не разобрался надо вникать
 
@@ -321,15 +321,25 @@ public class Main {
 
         System.out.println("Задача 1");
 
-        int clientOS = 0;
+        int clientOS = 1;
+        short year = 2017;
 
-        if (clientOS < 1) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
+        if (year < 2015) {
+            if (clientOS == 0) {
+                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            }
+            if (clientOS == 1)
+
+                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+
+        } else {
+            if (clientOS == 0) {
+                System.out.println("Установите версию приложения для iOS по ссылке");
+            } else if (clientOS == 1) {
+                System.out.println("Установите версию приложения для iOS по ссылке");
+
+
+            }
         }
-        if (clientOS > 0)
-
-            System.out.println("Установите версию приложения для Android по ссылке");
-        else if (clientOS < clientOS);
-
     }
 }
