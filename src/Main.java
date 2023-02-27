@@ -350,69 +350,78 @@ public class Main {
                 }
             }
 
-                System.out.println("Задача 3");
+            System.out.println("Задача 3");
 
-                int year1 = 2021;
-                // в процедурее остатка от деления не разобрался // трудновато дается // списал....
-                if (year1 % 4 == 0 && year1 % 100 != 0 || year % 400 == 0) {
-                    System.out.println("Год является високосным");
-                } else {
-                    System.out.println("Год не явлеется високосным");
-                }
-
-
-            }
-            System.out.println("Задача 4");
-
-            int deliveryDistance = 95;
-
-            int days = 1;
-
-
-            if (deliveryDistance > 20) {
-                days++;
-
-            }
-            if (deliveryDistance > 60) {
-                days++;
-
-            }
-            System.out.println("Потребуется дней " + days);
-
-            if (deliveryDistance > 80) {
-                days++;
-
+            int year1 = 2021;
+            // в процедурее остатка от деления не разобрался // трудновато дается // списал....
+            if (year1 % 4 == 0 && year1 % 100 != 0 || year % 400 == 0) {
+                System.out.println("Год является високосным");
+            } else {
+                System.out.println("Год не явлеется високосным");
             }
 
 
-            if (deliveryDistance > 100) {
-                days++;
+        }
+        System.out.println("Задача 4");
 
-            }
+        int deliveryDistance = 95;
+
+        int days = 1;
 
 
-            System.out.println("Задача 5");
+        if (deliveryDistance > 20) {
+            days++;
 
-            int месяц = 7;
-            switch (месяц) {
-                case 1, 2, 12:
-                    System.out.println("зима");
-                    break;
-                case 3, 4, 5:
-                    System.out.println("весна");
-                    break;
-                case 9, 10, 11:
-                    System.out.println("осень");
-                    break;
-                case 6, 7, 8:
-                    System.out.println("лето");
-                    break;
-                default:
-                    System.out.println("не известно");
+        }
+        if (deliveryDistance > 60) {
+            days++;
 
-            }
+        }
+        System.out.println("Потребуется дней " + days);
+
+        if (deliveryDistance > 80) {
+            days++;
+
         }
 
+
+        if (deliveryDistance > 100) {
+            days++;
+
+        }
+
+
+        System.out.println("Задача 5");
+
+        int месяц = 7;
+        switch (месяц) {
+            case 1, 2, 12:
+                System.out.println("зима");
+                break;
+            case 3, 4, 5:
+                System.out.println("весна");
+                break;
+            case 9, 10, 11:
+                System.out.println("осень");
+                break;
+            case 6, 7, 8:
+                System.out.println("лето");
+                break;
+            default:
+                System.out.println("не известно");
+
+        }
+
+
+        // Циклы
+
+        System.out.println("Задача 1");
+
+
     }
+
+
+
+}
 
 
