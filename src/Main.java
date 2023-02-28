@@ -115,7 +115,6 @@ public class Main {
         int min = 2;
         int etime = bat / min;
         int etime2 = etime * 20;
-        ;
         int etime4 = etime2 * 24;
         int etime5 = etime4 * 3;
         int etime6 = etime5 * 10;
@@ -292,7 +291,7 @@ public class Main {
 
         }
 
-        System.out.println("Задача 7");
+          System.out.println("Задача 7");
 
         int one = 1;
         int two = 2;
@@ -377,7 +376,6 @@ public class Main {
             days++;
 
         }
-        System.out.println("Потребуется дней " + days);
 
         if (deliveryDistance > 80) {
             days++;
@@ -389,6 +387,8 @@ public class Main {
             days++;
 
         }
+        System.out.println("Потребуется дней " + days);
+
 
 
         System.out.println("Задача 5");
@@ -416,12 +416,22 @@ public class Main {
         // Циклы
 
         System.out.println("Задача 1");
+        for (int i = 0; i < 11; i = i + 1) {
+            System.out.println(i);
 
 
+        }
+
+        System.out.println("Задача 2");
+        for (int i = 10; i > 0; i = i - 1) {
+            System.out.println(i);
+
+
+        }
+        System.out.println("Задача 3");
+        for (int i = 10; i < 10; i = i / 2) {
+            System.out.println(i);
+        }
     }
-
-
-
 }
-
 
