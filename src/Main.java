@@ -291,7 +291,7 @@ public class Main {
 
         }
 
-          System.out.println("Задача 7");
+        System.out.println("Задача 7");
 
         int one = 1;
         int two = 2;
@@ -390,7 +390,6 @@ public class Main {
         System.out.println("Потребуется дней " + days);
 
 
-
         System.out.println("Задача 5");
 
         int месяц = 7;
@@ -429,9 +428,36 @@ public class Main {
 
         }
         System.out.println("Задача 3");
-        for (int i = 10; i < 10; i = i / 2) {
+        for (int i = 0; i < 17; i = i + 2) {
+            System.out.println(i);
+
+        }
+
+        System.out.println("Задача 4");
+        for (int i = 0; i < 10; i = i + 2) {
+            System.out.println(i);
+
+
+        }
+        System.out.println("Задача 5");
+
+        for (int i = 1904; i < 2096; i = i + 4) {
+            System.out.println("Високосный год " + i);
+        }
+
+
+        System.out.println("Задача 6");
+
+        for (int i = 7; i < 100; i = i + 4) {
+            System.out.println(i);
+
+        }
+        System.out.println("Задача 7");
+        for (int i = 2; i < 512; i = i * 2) {
             System.out.println(i);
         }
+
+
     }
 }
 
