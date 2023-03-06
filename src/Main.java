@@ -500,14 +500,26 @@ public class Main {
             proc = (proc + зарплата) * (1 + ob1);
             System.out.println("Месяц " + i + " сумма накоплений равна " + proc + " рублей");
 
-            System.out.println(зарплата);
+            System.out.println(proc);
         }
         System.out.println("Задача 2");
 
+        int start = 0;
+        while (start < 11) {
+
+
+            System.out.print(start);
+            start = start + 1;
 
 
 
-    }
-}
+        }
+
+
+
+
+        }}
+
+
 
 
