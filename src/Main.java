@@ -457,7 +457,7 @@ public class Main {
             System.out.println(i);
         }
         System.out.println("Задача 8");
-        
+
         int зарплата = 29_000;
         int o = 0;
         for (int i = 1; i <= 12; i++) {
@@ -469,31 +469,43 @@ public class Main {
 
         double proc = 0;
         double ob1 = 0.01;
-        for (int i = 1; i <= 12 ; i++) {
+        for (int i = 1; i <= 12; i++) {
             proc = (proc + зарплата) * (1 + ob1);
             System.out.println("Месяц " + i + " сумма накоплений равна " + proc + " рублей");
 
         }
         System.out.println("Задача 10");
 
-        int i=2,n=1;
-        while(i<=2)
-        {
-            System.out.print(i+" ");
-            while(n<=10)
-            {
+        int i = 2, n = 1;
+        while (i <= 2) {
+            System.out.print(i + " ");
+            while (n <= 10) {
                 n++;
-                System.out.print(i*n+" ");
+                System.out.print(i * n + " ");
             }
             i++;
-            n=1;
+            n = 1;
             System.out.println("");
             // не понятно //
 
         }
 
+        // Циклы 2
+        System.out.println("Задача 1");
 
 
+        int salary = 15000;
+        int total = 0;
+        int t = 0;
+        for (; total < 2_459_000; i++) {
+            total = total + total / 100;
+            total = total + salary;
+            if (t % 5 == 0) {
+                System.out.println("Месяц " + t + " Итого " + total);
+            }
+            System.out.println(total);
+        }
     }
 }
+
 
