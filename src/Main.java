@@ -494,17 +494,19 @@ public class Main {
         System.out.println("Задача 1");
 
 
-        int salary = 15000;
-        int total = 0;
-        int t = 0;
-        for (; total < 2_459_000; i++) {
-            total = total + total / 100;
-            total = total + salary;
-            if (t % 5 == 0) {
-                System.out.println("Месяц " + t + " Итого " + total);
-            }
-            System.out.println(total);
+        double е = 0;
+        double к = 0.01;
+        for (int t = 1; i <= 12; i++) {
+            proc = (proc + зарплата) * (1 + ob1);
+            System.out.println("Месяц " + i + " сумма накоплений равна " + proc + " рублей");
+
+            System.out.println(зарплата);
         }
+        System.out.println("Задача 2");
+
+
+
+
     }
 }
 
