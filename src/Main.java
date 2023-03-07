@@ -504,21 +504,36 @@ public class Main {
         }
         System.out.println("Задача 2");
 
-        int start = 0;
+        int start = 1;
         while (start < 11) {
 
 
-            System.out.print(start);
+            System.out.print(start + " ");
             start = start + 1;
 
-
+        }
+        System.out.println();
+        for (int u = 10; u > 0; u--) {
+            System.out.print(u + " ");
 
         }
+        System.out.println();
+
+        System.out.println("Задача 3");
+
+        int y = 12_000_000;
+        int k = 17;
+        int d = 8;
+        for (int m = 0; y < 12_000_000; k++) {
+            System.out.println(m);
+        }
+    }}
 
 
 
 
-        }}
+
+
 
 
 
